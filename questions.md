@@ -22,7 +22,7 @@ b) From a code point of view<br />
 Time required to address it: about 10-12 h<br />
 <br />
 2) What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.<br />
-Nice question :)<br />
+<br />Nice question :)<br />
 I wouldn't call it a most useful feature, but... I was missing string interpolations since a very beginning. I remember that I was using it in perl 17 years ago and I just can't believe what took them so long.<br />
 
 <code>
@@ -56,3 +56,24 @@ I didn't spend that much time with it, and I haven't look at many methods in the
 ** If I was a client requesting such API, I would ask for pagination and sorting perhaps.<br />
 
 5) <br />
+{  
+   "name":"Mateusz Kopij",
+   "nickname":"Dr Matt",
+   "gender":"Male",
+   "dateOfBirth":"20/01/1983",
+   "location": "World, Planet Earth",
+   "interests":[  
+       "Startups",
+       "Information Technology - as a theory of information",
+       "Computer Science - as an engineering and craftsmanship",
+       "Business",
+       "Hacking life ;)",
+   ],
+   "Desires":[  
+       "Work with nice people",
+       "Work with in a company with a great culture",
+       "Have a good work life balance",
+       "Pushing world forward",
+       "Enjoy my time!"
+   ]
+}
