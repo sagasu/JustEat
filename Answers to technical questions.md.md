@@ -78,3 +78,5 @@ I didn't spend too much time with it, and I haven't look at many methods in the 
        "Enjoy my time!"  
    ]  
 }  
+<br />
+6) There was no question number 6 :) but.. I have to add it. Guys, it is 21 century. Everyone should have github or gitlab account, sending code in a zipped folder and using platforms like box is really old school - and we are loosing commit history and useful info. Let's use github, let's ask developers to just provide a github link :)
