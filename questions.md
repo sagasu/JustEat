@@ -55,25 +55,26 @@ I didn't spend that much time with it, and I haven't look at many methods in the
 ** A general problem with Restful APIs is that there is no discovery service. I have no idea what this API is doing, and how to use it. Also, there is no information about how to set headers. If I was not told to set them, I wouldn't know. It makes me wonder if other methods require different headers, or extra/hidden parameters?<br />
 ** If I was a client requesting such API, I would ask for pagination and sorting perhaps.<br />
 
-5) <br />
+5) Please describe yourself using JSON.
+<br />
 {  
-   "name":"Mateusz Kopij",
-   "nickname":"Dr Matt",
-   "gender":"Male",
-   "dateOfBirth":"20/01/1983",
-   "location": "World, Planet Earth",
-   "interests":[  
-       "Startups",
-       "Information Technology - as a theory of information",
-       "Computer Science - as an engineering and craftsmanship",
-       "Business",
-       "Hacking life ;)",
-   ],
-   "Desires":[  
-       "Work with nice people",
-       "Work with in a company with a great culture",
-       "Have a good work life balance",
-       "Pushing world forward",
-       "Enjoy my time!"
-   ]
-}
+   "name":"Mateusz Kopij",  
+   "nickname":"Dr Matt",  
+   "gender":"Male",  
+   "dateOfBirth":"20/01/1983",  
+   "location": "World, Planet Earth",  
+   "interests":[   
+       "Startups",  
+       "Information Technology - as a theory of information",  
+       "Computer Science - as an engineering and craftsmanship",  
+       "Business",  
+       "Hacking life ;)",  
+   ],  
+   "Desires":[    
+       "Work with nice people",  
+       "Work with in a company with a great culture",  
+       "Have a good work life balance",  
+       "Pushing world forward",  
+       "Enjoy my time!"  
+   ]  
+}  
