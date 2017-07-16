@@ -1,0 +1,20 @@
+﻿@using CodingExercise.Web.Models
+@using CodingExercise.Web.RazorHelpers
+
+@model RestaurantViewModel
+
+@foreach (var restaurant in Model.Restaurants)
+{
+    <div>
+        <h3>@restaurant.Name</h3>
+
+        <dl>
+            <dt>Rating:</dt>
+
+            <dd>@restaurant.RatingStars @Html.Pluralize(restaurant.RatingStars, "star") from @restaurant.NumberOfRatings @Html.Pluralize(restaurant.NumberOfRatings, "rating")</dd>
+
+            <dt>Types of food:</dt>
+            <dd>@String.Join(", ", restaurant.CuisineTypes.Select(type => type.Name))</dd>
+        </dl>
+    </div>
+}

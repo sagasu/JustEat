@@ -1,0 +1,22 @@
+﻿@using CodingExercise.Web.Models
+
+@model RestaurantViewModel
+@{
+    ViewBag.Title = "Search For Restaurants";
+}
+
+<h2>Find JustEat Restaurant:</h2>
+
+@using(Html.BeginForm("SearchForRestaurant", "Home", FormMethod.Post))
+{
+    <div>
+        
+        @Html.ValidationSummary()
+    
+        @Html.LabelFor(x => x.Outcode, "Please provide an outcode")
+        @Html.TextBoxFor(x => x.Outcode)
+
+        <input type="submit" value="Search" />
+
+    </div>
+}

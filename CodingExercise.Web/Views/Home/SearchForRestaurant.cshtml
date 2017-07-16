@@ -1,0 +1,13 @@
+﻿@using CodingExercise.Web.Models
+@model CodingExercise.Web.Models.RestaurantViewModel
+
+<html>
+    <head>
+        <title>Restaurants</title>
+    </head>
+    <body>
+        <div>
+            @Html.Action("DisplayRestaurants", "Home", new { model = Model })
+        </div>
+    </body>
+</html>
