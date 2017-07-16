@@ -34,7 +34,7 @@ Console.WriteLine($"My name is {name}.");
 3) How would you track down a performance issue in production? Have you ever had to do this?<br />
 Oh... heavy lifting stuff.<br />
 
-I was the guy to spend many hours dealing with WinDbg before it was considered cool :) General knowledge from books like "CLR Via C#" and "C# in depth" is useful. I keep most useful comments on my blog:<br />
+I was the guy to spend many hours dealing with WinDbg before it was considered cool :) General knowledge from books like "CLR Via C#" and "C# in depth" is useful. I keep most useful WinDbg commands on my blog:<br />
 http://kuebiko.blogspot.co.uk/2012/11/net-crash-dump-debugging.html<br />
 http://kuebiko.blogspot.co.uk/2012/11/thread-wait-and-debugging-sitecore.html<br />
 
@@ -50,10 +50,10 @@ http://kuebiko.blogspot.co.uk/2012/11/usefull-perfmon-counters-for-memory.html<b
 <br />
 4) How would you improve the JUST EAT APIs that you just used?
 <br />
-I didn't spend that much time with it, and I haven't look at many methods in the API but...<br />
-** After receiving lists of restaurants there is no information about what can I do about it. In a way that Restful API should lead me and help me discover what is the next step, this one is not doing it.<br />
+I didn't spend too much time with it, and I haven't look at many methods in the API but...<br />
+** After receiving lists of restaurants there is no information what can I do about it. In a way that Restful API should lead me and help me discover the next step, this one is not doing it.<br />
 ** A general problem with Restful APIs is that there is no discovery service. I have no idea what this API is doing, and how to use it. Also, there is no information about how to set headers. If I was not told to set them, I wouldn't know. It makes me wonder if other methods require different headers, or extra/hidden parameters?<br />
-** If I was a client requesting such API, I would ask for pagination and sorting perhaps.<br />
+** If I was a client requesting such API, I would ask for pagination and sorting.<br />
 <br />
 5) Please describe yourself using JSON.
 <br />
