@@ -30,7 +30,7 @@ var name = "Smeagol";
 <br />
 Console.WriteLine($"My name is {name}.");
 </code>
-
+<br />
 3) How would you track down a performance issue in production? Have you ever had to do this?<br />
 Oh... heavy lifting stuff.<br />
 
@@ -47,14 +47,14 @@ Also Visual Studio provides some basic features to track the bottlenecks.<br />
 I like to keep some typical benchmarks in PerfMon like these:<br />
 http://kuebiko.blogspot.co.uk/2012/11/perfmon-typical-counters.html?m=0<br />
 http://kuebiko.blogspot.co.uk/2012/11/usefull-perfmon-counters-for-memory.html<br />
-
+<br />
 4) How would you improve the JUST EAT APIs that you just used?
 <br />
 I didn't spend that much time with it, and I haven't look at many methods in the API but...<br />
 ** After receiving lists of restaurants there is no information about what can I do about it. In a way that Restful API should lead me and help me discover what is the next step, this one is not doing it.<br />
 ** A general problem with Restful APIs is that there is no discovery service. I have no idea what this API is doing, and how to use it. Also, there is no information about how to set headers. If I was not told to set them, I wouldn't know. It makes me wonder if other methods require different headers, or extra/hidden parameters?<br />
 ** If I was a client requesting such API, I would ask for pagination and sorting perhaps.<br />
-
+<br />
 5) Please describe yourself using JSON.
 <br />
 {  
