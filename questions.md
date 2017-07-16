@@ -72,7 +72,7 @@ I didn't spend that much time with it, and I haven't look at many methods in the
    ],  
    "Desires":[    
        "Work with nice people",  
-       "Work with in a company with a great culture",  
+       "Work in a company with a great culture",  
        "Have a good work life balance",  
        "Pushing world forward",  
        "Enjoy my time!"  
